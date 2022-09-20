@@ -19,3 +19,6 @@
   border-top: 1px solid #e4e8f3;
   padding: 10px 30px;
 }
+.img>img:hover{
+  transform: scale(1.1);
+}

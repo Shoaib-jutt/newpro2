@@ -1,7 +1,10 @@
 import React from "react"
 import { footer } from "../../data/Data"
 import "./footer.css"
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 const Footer = () => {
   return (
     <>
@@ -9,8 +12,10 @@ const Footer = () => {
         <div className='container'>
           <div className='send flex'>
             <div className='text'>
-              <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
+           <FacebookIcon fontSize="large"/>
+           <TwitterIcon fontSize='large'/>
+           <InstagramIcon fontSize='large'/>
+           <YouTubeIcon fontSize="large"/>
             </div>
             <button className='btn5'>Contact Us Today</button>
           </div>
@@ -36,7 +41,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2022 PROPERTY267. Designd By SHOAIB.</span>
+        <span>© 2022 PROPERTY267. Designd By Umar.</span>
       </div>
     </>
   )
