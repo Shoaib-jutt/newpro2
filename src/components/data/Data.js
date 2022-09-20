@@ -1,6 +1,6 @@
 export const nav = [
   {
-    text: "home",
+    text: "Home",
     path: "/",
   },
   {
@@ -12,11 +12,11 @@ export const nav = [
     path: "/services",
   },
   {
-    text: "blog",
+    text: "Buy",
     path: "/blog",
   },
   {
-    text: "pricing",
+    text: "Rent",
     path: "/pricing",
   },
   {
